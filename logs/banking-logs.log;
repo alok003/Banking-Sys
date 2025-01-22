@@ -1,0 +1,87 @@
+2024-11-25T08:10:29.190+05:30  WARN 20792 --- [bankmgmt] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h41m20s109ms293µs600ns).
+2024-11-25T08:35:33.983+05:30  WARN 20792 --- [bankmgmt] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m12s168ms785µs100ns).
+2024-11-25T08:41:00.984+05:30  INFO 20792 --- [bankmgmt] [scheduling-1] c.p.bankmgmt.dao.TransactionsDaoWrapper  : All transactions displayed
+2024-11-25T08:41:00.984+05:30  INFO 20792 --- [bankmgmt] [scheduling-1] c.p.b.s.TransactionServiceImplementation : Daily Statements Email Sending
+2025-01-22T16:42:04.277+05:30  INFO 13572 --- [bankmgmt] [main] c.project.bankmgmt.BankmgmtApplication   : Starting BankmgmtApplication using Java 17.0.12 with PID 13572 (E:\project\BankingSys\bankmgmt\target\classes started by alok8 in E:\project\BankingSys\bankmgmt)
+2025-01-22T16:42:04.280+05:30  INFO 13572 --- [bankmgmt] [main] c.project.bankmgmt.BankmgmtApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T16:42:05.247+05:30  INFO 13572 --- [bankmgmt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-22T16:42:05.342+05:30  INFO 13572 --- [bankmgmt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2025-01-22T16:42:06.315+05:30  INFO 13572 --- [bankmgmt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8099 (http)
+2025-01-22T16:42:06.334+05:30  INFO 13572 --- [bankmgmt] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-22T16:42:06.335+05:30  INFO 13572 --- [bankmgmt] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-22T16:42:06.422+05:30  INFO 13572 --- [bankmgmt] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-22T16:42:06.423+05:30  INFO 13572 --- [bankmgmt] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2079 ms
+2025-01-22T16:42:06.662+05:30  INFO 13572 --- [bankmgmt] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-22T16:42:06.836+05:30  INFO 13572 --- [bankmgmt] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-22T16:42:06.902+05:30  INFO 13572 --- [bankmgmt] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-22T16:42:07.249+05:30  INFO 13572 --- [bankmgmt] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-22T16:42:07.291+05:30  INFO 13572 --- [bankmgmt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-22T16:42:07.694+05:30  INFO 13572 --- [bankmgmt] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6233c6c2
+2025-01-22T16:42:07.697+05:30  INFO 13572 --- [bankmgmt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-22T16:42:08.635+05:30  INFO 13572 --- [bankmgmt] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-22T16:42:08.748+05:30  INFO 13572 --- [bankmgmt] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-22T16:42:09.257+05:30  WARN 13572 --- [bankmgmt] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-22T16:42:09.284+05:30  WARN 13572 --- [bankmgmt] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-22T16:42:10.284+05:30  INFO 13572 --- [bankmgmt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8099 (http) with context path '/'
+2025-01-22T16:42:10.315+05:30  INFO 13572 --- [bankmgmt] [main] c.project.bankmgmt.BankmgmtApplication   : Started BankmgmtApplication in 6.63 seconds (process running for 7.229)
+2025-01-22T16:51:25.058+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22T16:51:25.058+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-22T16:51:25.059+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-22T16:51:25.192+05:30  WARN 13572 --- [bankmgmt] [http-nio-8099-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2025-01-22T16:51:44.795+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-3] c.p.b.service.UserServiceImplementation  : User Registration initiated
+2025-01-22T16:51:44.932+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-3] c.project.bankmgmt.dao.UserDaoWrapper    : User Created Sucessfully with id 1
+2025-01-22T16:52:59.108+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-6] c.p.b.service.UserServiceImplementation  : User Registration initiated
+2025-01-22T16:52:59.171+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-6] c.project.bankmgmt.dao.UserDaoWrapper    : User Created Sucessfully with id 2
+2025-01-22T16:53:48.624+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-7] c.p.b.service.UserServiceImplementation  : Login instantiated
+2025-01-22T16:54:14.716+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-8] c.p.b.service.UserServiceImplementation  : Login instantiated
+2025-01-22T16:54:14.777+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-8] c.p.b.service.UserServiceImplementation  : JWT token created
+2025-01-22T18:59:29.134+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-2] c.p.b.service.UserServiceImplementation  : Login instantiated
+2025-01-22T18:59:29.235+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-2] c.p.b.service.UserServiceImplementation  : JWT token created
+2025-01-22T18:59:38.131+05:30  WARN 13572 --- [bankmgmt] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h5m307ms919µs600ns).
+2025-01-22T19:03:10.224+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-4] c.p.b.service.UserServiceImplementation  : Login instantiated
+2025-01-22T19:03:10.333+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-4] c.p.b.service.UserServiceImplementation  : JWT token created
+2025-01-22T19:03:35.504+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-5] c.p.b.service.UserServiceImplementation  : Login instantiated
+2025-01-22T19:03:35.606+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-5] c.p.b.service.UserServiceImplementation  : JWT token created
+2025-01-22T19:04:56.153+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-8] c.p.b.service.UserServiceImplementation  : User Update initiated
+2025-01-22T19:04:56.280+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-8] c.project.bankmgmt.dao.UserDaoWrapper    : User updated sucessfully
+2025-01-22T19:06:15.538+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-2] c.p.b.service.UserServiceImplementation  : User Update initiated
+2025-01-22T19:06:15.649+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-2] c.project.bankmgmt.dao.UserDaoWrapper    : User updated sucessfully
+2025-01-22T19:09:12.642+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-5] c.p.b.service.UserServiceImplementation  : User Balance Fetching initiated
+2025-01-22T19:09:12.646+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-5] c.project.bankmgmt.dao.UserDaoWrapper    : Balance fetched sucessfully
+2025-01-22T19:10:13.757+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-8] c.p.b.service.UserServiceImplementation  : User Balance Fetching initiated
+2025-01-22T19:10:13.761+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-8] c.project.bankmgmt.dao.UserDaoWrapper    : Balance fetched sucessfully
+2025-01-22T19:11:38.359+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-1] c.p.b.service.UserServiceImplementation  : User Transactions fetching
+2025-01-22T19:11:45.421+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-1] c.project.bankmgmt.dao.UserDaoWrapper    : transactions emailed and displayed sucessfully
+2025-01-22T19:14:22.076+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-7] c.p.b.s.TransactionServiceImplementation : Transaction inititated for withdrawl
+2025-01-22T19:14:28.407+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-7] c.p.bankmgmt.dao.TransactionsDaoWrapper  : Transaction withdrawl sucessfull with id 1
+2025-01-22T19:15:17.500+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-9] c.p.b.s.TransactionServiceImplementation : Transaction inititated for deposit
+2025-01-22T19:15:23.629+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-9] c.p.bankmgmt.dao.TransactionsDaoWrapper  : Transaction deposit sucessfull with id 2
+2025-01-22T19:18:25.664+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-1] c.p.b.s.TransactionServiceImplementation : Transaction inititated for transfer
+2025-01-22T19:18:37.672+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-1] c.p.bankmgmt.dao.TransactionsDaoWrapper  : Transaction transfer sucessfull with id 3
+2025-01-22T19:18:58.474+05:30 TRACE 13572 --- [bankmgmt] [http-nio-8099-exec-3] c.p.b.s.TransactionServiceImplementation : Fetch all transactions initiated
+2025-01-22T19:18:58.495+05:30  INFO 13572 --- [bankmgmt] [http-nio-8099-exec-3] c.p.bankmgmt.dao.TransactionsDaoWrapper  : All transactions displayed
+2025-01-22T19:36:21.037+05:30  INFO 13572 --- [bankmgmt] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-22T19:36:21.044+05:30  INFO 13572 --- [bankmgmt] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-22T19:36:21.058+05:30  INFO 13572 --- [bankmgmt] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-22T19:36:34.289+05:30  INFO 14384 --- [bankmgmt] [main] c.project.bankmgmt.BankmgmtApplication   : Starting BankmgmtApplication using Java 17.0.12 with PID 14384 (E:\project\BankingSys\bankmgmt\target\classes started by alok8 in E:\project\BankingSys\bankmgmt)
+2025-01-22T19:36:34.296+05:30  INFO 14384 --- [bankmgmt] [main] c.project.bankmgmt.BankmgmtApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T19:36:35.805+05:30  INFO 14384 --- [bankmgmt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-22T19:36:35.914+05:30  INFO 14384 --- [bankmgmt] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2025-01-22T19:36:37.174+05:30  INFO 14384 --- [bankmgmt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8099 (http)
+2025-01-22T19:36:37.196+05:30  INFO 14384 --- [bankmgmt] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-22T19:36:37.196+05:30  INFO 14384 --- [bankmgmt] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-22T19:36:37.339+05:30  INFO 14384 --- [bankmgmt] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-22T19:36:37.340+05:30  INFO 14384 --- [bankmgmt] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2960 ms
+2025-01-22T19:36:37.619+05:30  INFO 14384 --- [bankmgmt] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-22T19:36:37.846+05:30  INFO 14384 --- [bankmgmt] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-22T19:36:37.913+05:30  INFO 14384 --- [bankmgmt] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-22T19:36:38.392+05:30  INFO 14384 --- [bankmgmt] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-22T19:36:38.479+05:30  INFO 14384 --- [bankmgmt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-22T19:36:38.872+05:30  INFO 14384 --- [bankmgmt] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ba562e0
+2025-01-22T19:36:38.874+05:30  INFO 14384 --- [bankmgmt] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-22T19:36:39.984+05:30  INFO 14384 --- [bankmgmt] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-22T19:36:40.045+05:30  INFO 14384 --- [bankmgmt] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-22T19:36:40.664+05:30  WARN 14384 --- [bankmgmt] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-22T19:36:40.694+05:30  WARN 14384 --- [bankmgmt] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-22T19:36:42.121+05:30  INFO 14384 --- [bankmgmt] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8099 (http) with context path '/'
+2025-01-22T19:36:42.162+05:30  INFO 14384 --- [bankmgmt] [main] c.project.bankmgmt.BankmgmtApplication   : Started BankmgmtApplication in 8.701 seconds (process running for 9.453)

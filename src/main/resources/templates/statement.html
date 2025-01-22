@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Details</title>
+    <!-- Basic CSS styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .status {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .amount {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .transaction-id {
+            font-style: italic;
+            color: #666;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .greeting {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        /* Styling the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Greeting Section -->
+    <div class="greeting">
+        <h2>Hey, User!</h2>
+        <p>Welcome to your transaction details page.</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <h1>Transaction List</h1>
+
+        <!-- Table to display transactions -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Transaction ID</th>
+                    <th>Amount</th>
+                    <th>Transaction Type</th>
+                    <th>Transaction Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Loop through the transactions list -->
+                <tr th:each="transaction : ${transaction}">
+                    <td th:text="${transaction.transactionId}"></td>
+                    <td class="amount" th:text="${transaction.amount}"></td>
+                    <td th:text="${transaction.transactionType}"></td>
+                    <td th:text="${transaction.tDate}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>Thanks for banking with us!</p>
+            <p>If you suspect any fraudulent activity, please contact us immediately:</p>
+            <p><strong>Phone:</strong> +1-800-123-4567</p>
+            <p><strong>Email:</strong> <a href="mailto:fraud@bank.com">fraud@bank.com</a></p>
+            <p>&copy; 2024 YourBank. All rights reserved.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
